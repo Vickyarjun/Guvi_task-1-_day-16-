@@ -1,0 +1,140 @@
+:root {
+    --primary-color: #19AEC2;
+    --secondary-color: #FDC00F;
+    --gray-color: #707070;
+    --light-color: #B2E0E9;
+    --blue-color: #325B72;
+  }
+  body{
+    background-color: #F2F2F2;
+  }
+  .container {
+    width: 64%;
+  }
+  
+  .heading {
+    color: var(--primary-color);
+  }
+  
+  .heading__span {
+    color: var(--secondary-color);
+  }
+  
+  .heading__desc {
+    color: var(--gray-color);
+  }
+  
+  .ribbon {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    color: var(--light-color);
+  }
+  
+  .h2 {
+    color: var(--blue-color);
+    font-weight: 600;
+  }
+  
+  #left {
+    row-gap: 1rem;
+    border-right: 3px dashed var(--primary-color);
+    
+  }
+  
+  .info-img {
+    width: 70%;
+  }
+  
+  .info-img--medium {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  
+  .info-img--small {
+    width: 30%;
+  }
+  
+  .info-img--smaller {
+    width: 20%;
+  }
+  
+  .para {
+    color: var(--primary-color);
+  }
+  
+  .primary-clr {
+    color: var(--primary-color);
+  }
+  
+  .secondary-clr {
+    color: var(--secondary-color);
+  }
+
+  .blue-clr{
+    color:var(--blue-color);
+  }
+  
+  .fs-7 {
+    font-size: 2rem;
+  }
+  
+  .fs-8 {
+    font-size: 3rem;
+  }
+  
+  .row-gap-1rem {
+    row-gap: 1rem;
+  }
+  
+  .column-gap-1rem {
+    -webkit-column-gap: 1rem;
+            column-gap: 1rem;
+  }
+  
+  .column-gap-2rem {
+    -webkit-column-gap: 2rem;
+            column-gap: 2rem;
+  }
+  
+  .width-auto {
+    width: auto;
+  }
+  
+  .height-4rem {
+    height: 4rem;
+  }
+  
+  .healthy__banner {
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+  }
+  
+  .disease__img {
+    height: 6rem;
+    width: auto;
+    padding: 4px;
+  }
+  
+  .lh-1rem {
+    line-height: 1rem;
+  }
+  
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+    }
+    .left {
+      border-right: none;
+    }
+  }
+  
+  @media (max-width: 1024px) and (min-width: 768px) {
+    .container {
+      width: 100%;
+    }
+    .left {
+      border-right: none;
+    }
+  }
+  /*# sourceMappingURL=style.css.map */
